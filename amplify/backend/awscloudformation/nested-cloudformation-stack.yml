@@ -68,15 +68,15 @@
 				}
 			}
 		},
-		"authamplifyappae1da440": {
+		"authamplifyappbeb3b8ea": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-12457-deployment/amplify-cfn-templates/auth/amplifyappae1da440-cloudformation-template.yml",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-40844-deployment/amplify-cfn-templates/auth/amplifyappbeb3b8ea-cloudformation-template.yml",
 				"Parameters": {
-					"identityPoolName": "amplifyappae1da440_identitypool_ae1da440",
+					"identityPoolName": "amplifyappbeb3b8ea_identitypool_beb3b8ea",
 					"allowUnauthenticatedIdentities": false,
-					"resourceNameTruncated": "amplifae1da440",
-					"userPoolName": "amplifyappae1da440_userpool_ae1da440",
+					"resourceNameTruncated": "amplifbeb3b8ea",
+					"userPoolName": "amplifyappbeb3b8ea_userpool_beb3b8ea",
 					"autoVerifiedAttributes": "email",
 					"mfaConfiguration": "OFF",
 					"mfaTypes": "SMS Text Message",
@@ -92,10 +92,10 @@
 					"userpoolClientRefreshTokenValidity": 30,
 					"userpoolClientWriteAttributes": "email",
 					"userpoolClientReadAttributes": "email",
-					"userpoolClientLambdaRole": "amplifae1da440_userpoolclient_lambda_role",
+					"userpoolClientLambdaRole": "amplifbeb3b8ea_userpoolclient_lambda_role",
 					"userpoolClientSetAttributes": false,
-					"sharedId": "ae1da440",
-					"resourceName": "amplifyappae1da440",
+					"sharedId": "beb3b8ea",
+					"resourceName": "amplifyappbeb3b8ea",
 					"authSelections": "identityPoolAndUserPool",
 					"authRoleArn": {
 						"Fn::GetAtt": [
@@ -110,7 +110,6 @@
 						]
 					},
 					"useDefault": "default",
-					"usernameAttributes": "email",
 					"userPoolGroupList": "",
 					"dependsOn": "",
 					"env": "dev"
@@ -121,7 +120,7 @@
 			"DependsOn": [
 				"AuthRole",
 				"UnauthRole",
-				"authamplifyappae1da440"
+				"authamplifyappbeb3b8ea"
 			],
 			"Type": "AWS::Lambda::Function",
 			"Properties": {
@@ -204,7 +203,7 @@
 				},
 				"idpId": {
 					"Fn::GetAtt": [
-						"authamplifyappae1da440",
+						"authamplifyappbeb3b8ea",
 						"Outputs.IdentityPoolId"
 					]
 				},

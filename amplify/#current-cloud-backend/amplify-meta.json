@@ -1,38 +1,38 @@
 {
 	"providers": {
 		"awscloudformation": {
-			"AuthRoleName": "amplify-amplifyapp-dev-12457-authRole",
-			"UnauthRoleArn": "arn:aws:iam::821149862121:role/amplify-amplifyapp-dev-12457-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::821149862121:role/amplify-amplifyapp-dev-12457-authRole",
+			"AuthRoleName": "amplify-amplifyapp-dev-40844-authRole",
+			"UnauthRoleArn": "arn:aws:iam::821149862121:role/amplify-amplifyapp-dev-40844-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::821149862121:role/amplify-amplifyapp-dev-40844-authRole",
 			"Region": "eu-west-1",
-			"DeploymentBucketName": "amplify-amplifyapp-dev-12457-deployment",
-			"UnauthRoleName": "amplify-amplifyapp-dev-12457-unauthRole",
-			"StackName": "amplify-amplifyapp-dev-12457",
-			"StackId": "arn:aws:cloudformation:eu-west-1:821149862121:stack/amplify-amplifyapp-dev-12457/80202710-e0d8-11ea-a681-02174fa64a32",
-			"AmplifyAppId": "d16dpo5t3suhgg"
+			"DeploymentBucketName": "amplify-amplifyapp-dev-40844-deployment",
+			"UnauthRoleName": "amplify-amplifyapp-dev-40844-unauthRole",
+			"StackName": "amplify-amplifyapp-dev-40844",
+			"StackId": "arn:aws:cloudformation:eu-west-1:821149862121:stack/amplify-amplifyapp-dev-40844/5e736d90-e0ef-11ea-913e-0af573e17780",
+			"AmplifyAppId": "dekcqgpgcnhg5"
 		}
 	},
 	"auth": {
-		"amplifyappae1da440": {
+		"amplifyappbeb3b8ea": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
 			"customAuth": false,
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-12457-deployment/amplify-cfn-templates/auth/amplifyappae1da440-cloudformation-template.yml",
-				"logicalId": "authamplifyappae1da440"
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-40844-deployment/amplify-cfn-templates/auth/amplifyappbeb3b8ea-cloudformation-template.yml",
+				"logicalId": "authamplifyappbeb3b8ea"
 			},
-			"lastPushTimeStamp": "2020-08-17T22:32:05.198Z",
+			"lastPushTimeStamp": "2020-08-18T01:18:23.567Z",
 			"output": {
-				"AppClientSecret": "1amkpln2ngf2lp2r5gfhk8jofhkfjhhqggoqf48orf6bm8fjmrsr",
-				"UserPoolId": "eu-west-1_hDypHWRkx",
-				"AppClientIDWeb": "1ok9ef811on242i6h9osg4o4uf",
-				"AppClientID": "4nj55rcf3iqo32iobapfibngff",
-				"IdentityPoolId": "eu-west-1:e255ac99-fe71-43bb-9513-52003ce3be44",
-				"IdentityPoolName": "amplifyappae1da440_identitypool_ae1da440__dev",
-				"UserPoolName": "amplifyappae1da440_userpool_ae1da440"
+				"AppClientSecret": "ol9us05incnhqmtrc95hltj7l1p99p85dq3o28ksv4kdnc1095p",
+				"UserPoolId": "eu-west-1_oN6AMhgwv",
+				"AppClientIDWeb": "6u15q3vefkg26ll5kb3vh5rg95",
+				"AppClientID": "2b3tjdn9tfn9arbd66c7q9ooot",
+				"IdentityPoolId": "eu-west-1:d20947a6-88fe-467d-80d4-a70222b7fede",
+				"IdentityPoolName": "amplifyappbeb3b8ea_identitypool_beb3b8ea__dev",
+				"UserPoolName": "amplifyappbeb3b8ea_userpool_beb3b8ea"
 			},
-			"lastPushDirHash": "SARRk11pUg1+RI89NH/og96Yxl0="
+			"lastPushDirHash": "UOi9dCfwxcf4E6a4GPdW8zbQQN0="
 		}
 	}
 }
